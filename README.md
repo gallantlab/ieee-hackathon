@@ -82,8 +82,8 @@ Send an email to `robertg@berkeley.edu` with the subject "`<team_name> 2016 IEEE
 ## evaluation
 We'll evaluate the quality of your decoding using one quantitative and one qualitative method.
 
-### 1. Mean word embedding vector correlation
+### 1. mean word embedding vector correlation
 We'll take the decoded words you submitted for the test story and transform them into the semantic word embedding space. We'll sum the vectors for each time point and compute the correlation coefficient between the summed vector with the semantic vector from the actual story.
 
-### 2. Human rating
+### 2. human rating
 We'll present human raters with the original passage and output from several submissions including our best and have them judge which of the submissions best matches to the meaning of the original passage.
