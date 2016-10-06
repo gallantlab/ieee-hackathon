@@ -72,14 +72,14 @@ And decode the responses in  a prediction for the story we'll evaluate how well 
 
 **Please only use the test story to generate your submission. Do not peak at it to build your decoder.**
 
-# submission format
+## submission format
 Run your decoder on the responses stored in the `TEST` field of `responses.h5`. Produce a space-delimited text file in which each line contains the word predictions for a single time point. That is, the text file contains one line per row in the `TEST` response array. Include a blank line if your decoder predicts no output for a given time point. For clarity, we've provided an example submission called `GLABEXAMPLE_decoding_results.txt`
 
 Send an email to `robertg@berkeley.edu` with the subject "`<team_name> 2016 IEEE HACKATHON SUBMISSION`". Include as attachments the following files:
 - **`<team_name>_decoding_results.txt`**: the aforementioned space-delimited text file
 - **`README.txt`** (or `.pdf`, `.md` if you want to include images or formatting): a document containing a brief description of your approach
 
-# evaluation
+## evaluation
 We'll evaluate the quality of your decoding using one quantitative and one qualitative method.
 
 ### 1. Mean word embedding vector correlation
