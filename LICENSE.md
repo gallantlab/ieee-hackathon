@@ -1,4 +1,6 @@
-1. You agree to be contacted by the Gallant lab to discuss potential collaborations.
+Participants in the Gallant laboratory's 2016 IEEE SMC Hackathon Challenge must agree to the following conditions.
+
+1. You agree to be contacted by the Gallant laboratory to discuss potential collaborations.
 
 2. You will not publish the results of the hackathon without express prior permission from the Gallant laboratory. Purely theoretical or methodological publications (that make no use of the hackathon data) are exempt from this rule.
 
