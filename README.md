@@ -35,9 +35,10 @@ At the very least you'll need to download the responses, which you can do by run
 $ bash download_responses.sh
 ~~~
 
-You might also want to download our precomputed stimulus features:
+You might also want to download our precomputed stimulus features and the example decoding model:
 ~~~ sh
 $ bash download_features.sh
+$ bash download_model.sh
 ~~~
 
 ## decoding example notebook
