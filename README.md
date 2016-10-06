@@ -5,10 +5,23 @@ Welcome to the Gallant Lab's offering for the 2016 IEEE International Conference
 For this project, you'll have access to brain activity from a human subject listening while they listen to hours of stories. Your goal is to design a method to decode their brain activity and predict what the subject heard. How you do it is completely up to you. We've provided easy starting points for NLP hackers wanting to construct custom features from the text data and ML hackers who just want to dive in using our features.
 
 ## getting started
-
+Start by downloading this repository.
 ~~~ sh
 $ git clone https://github.com/gallantlab/ieee-hackathon.git
 ~~~
+
+## decoding example notebook
+
+To help you get a lay of the land, we made a Jupyter notebook containing a simple decoding example. We recommend starting here to familiarize yourself with the data. Github provides a simple way to [view the notebook](https://github.com/gallantlab/ieee-hackathon/blob/master/notebooks/00-brain-decoding.ipynb). Just viewing the notebook might be sufficient to get you started. Optionally, if you'd like to interact with it you'll need to [install Jupyter](https://jupyter.readthedocs.io/en/latest/install.html#new-to-python-and-jupyter) and several other dependencies. An easy way to get all the dependencies is by installing [Anaconda](https://www.continuum.io/downloads).  
+
+After cloning this repository with the `git clone` command above, run the following commands:
+
+~~~ sh
+$ cd ieee-hackathon/notebook
+$ jupyter notebook
+~~~
+
+This should pop up a browser with the notebook, where you can edit and run the notebook.
 
 ## the data
 Smaller files like the story text are included in this repository, and the larger files are stored in a publicly-accessible Box.
@@ -41,17 +54,6 @@ $ bash download_features.sh
 $ bash download_model.sh
 ~~~
 
-## decoding example notebook
-
-To help you get a lay of the land, we made a Jupyter notebook containing a simple decoding example. We recommend starting here to familiarize yourself with the data. Github provides a simple way to [view the notebook](https://github.com/gallantlab/ieee-hackathon/blob/master/notebooks/00-brain-decoding.ipynb). Just viewing the notebook might be sufficient to get you started. Optionally, if you'd like to interact with it you'll need to [install Jupyter](https://jupyter.readthedocs.io/en/latest/install.html#new-to-python-and-jupyter). After cloning this repository with the `git clone` command above, run the following commands:
-
-~~~ sh
-$ cd ieee-hackathon/notebook
-$ jupyter notebook
-~~~
-
-This should pop up a browser with the notebook, where you can edit and run the notebook.
-
 -----
 # the challenge
 
@@ -70,7 +72,7 @@ The challenge is as pretty simple. Design a decoder that considerably outperform
 And decode the responses in  a prediction for the story we'll evaluate how well it performs on a held-out test story:
  - `TEST`
 
-**Please only use the test story to generate your submission. Do not peak at it to build your decoder.**
+**Please only use the test story to generate your submission. Do not peek at it to build your decoder.**
 
 ## submission format
 Run your decoder on the responses stored in the `TEST` field of `responses.h5`. Produce a space-delimited text file in which each line contains the word predictions for a single time point. That is, the text file contains one line per row in the `TEST` response array. Include a blank line if your decoder predicts no output for a given time point. For clarity, we've provided an example submission called `GLABEXAMPLE_decoding_results.txt`
