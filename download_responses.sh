@@ -6,4 +6,3 @@ fi
 
 printf "\033[0;35m\033[1m> downloading responses\n"
 wget -O "${DIR}/responses.h5" https://berkeley.box.com/shared/static/znhnewml3snwwio48wkup06um9y6vl9y.h5
-printf "\033[0;35m\033[1m> unpacking responses\n"
