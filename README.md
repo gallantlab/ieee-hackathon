@@ -29,18 +29,18 @@ Smaller files like the story text are included in this repository, and the large
 - [bsridge-directdecoding-alphas2to4-nboots10.h5](https://berkeley.box.com/shared/static/7a9bey1qudhv2megh138sf5bzyni5rtm.h5)
  - Linear regression weights from a the example decoding model which predicts word embedding vectors from voxel activity.
 
- At the very least you'll need to download the responses, which you can do by running the following script:
+At the very least you'll need to download the responses, which you can do by running the following script:
 
- ~~~ sh
- $ bash download_responses.sh
- ~~~
+~~~ sh
+$ bash download_responses.sh
+~~~
 
- You might also want to download our precomputed stimulus features:
- ~~~ sh
- $ bash download_features.sh
- ~~~
+You might also want to download our precomputed stimulus features:
+~~~ sh
+$ bash download_features.sh
+~~~
 
- ## decoding example notebook
+## decoding example notebook
 
 To help you get a lay of the land, we made a Jupyter notebook containing a simple decoding example. We recommend starting here to familiarize yourself with the data. Github provides a simple way to [view the notebook](https://github.com/gallantlab/ieee-hackathon/blob/master/notebooks/00-brain-decoding.ipynb). Just viewing the notebook might be sufficient to get you started. Optionally, if you'd like to interact with it you'll need to [install Jupyter](https://jupyter.readthedocs.io/en/latest/install.html#new-to-python-and-jupyter). After cloning this repository with the `git clone` command above, run the following commands:
 
