@@ -10,6 +10,17 @@ For this project, you'll have access to brain activity from a human subject list
 $ git clone https://github.com/gallantlab/ieee-hackathon.git
 ~~~
 
+## decoding example notebook
+
+To help you get a lay of the land, we made a Jupyter notebook containing a simple decoding example. We recommend starting here to familiarize yourself with the data. Github provides a simple way to [view the notebook](https://github.com/gallantlab/ieee-hackathon/blob/master/notebooks/00-brain-decoding.ipynb). Just viewing the notebook might be sufficient to get you started. Optionally, if you'd like to interact with it you'll need to [install Jupyter](https://jupyter.readthedocs.io/en/latest/install.html#new-to-python-and-jupyter). After cloning this repository with the `git clone` command above, run the following commands:
+
+~~~ sh
+$ cd ieee-hackathon/notebook
+$ jupyter notebook
+~~~
+
+This should pop up a browser with the notebook, where you can edit and run the notebook.
+
 ## the data
 Smaller files like the story text are included in this repository, and the larger files are stored in a publicly-accessible Box.
 
@@ -40,17 +51,6 @@ You might also want to download our precomputed stimulus features and the exampl
 $ bash download_features.sh
 $ bash download_model.sh
 ~~~
-
-## decoding example notebook
-
-To help you get a lay of the land, we made a Jupyter notebook containing a simple decoding example. We recommend starting here to familiarize yourself with the data. Github provides a simple way to [view the notebook](https://github.com/gallantlab/ieee-hackathon/blob/master/notebooks/00-brain-decoding.ipynb). Just viewing the notebook might be sufficient to get you started. Optionally, if you'd like to interact with it you'll need to [install Jupyter](https://jupyter.readthedocs.io/en/latest/install.html#new-to-python-and-jupyter). After cloning this repository with the `git clone` command above, run the following commands:
-
-~~~ sh
-$ cd ieee-hackathon/notebook
-$ jupyter notebook
-~~~
-
-This should pop up a browser with the notebook, where you can edit and run the notebook.
 
 -----
 # the challenge
