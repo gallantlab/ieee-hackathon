@@ -87,3 +87,7 @@ We'll take the decoded words you submitted for the test story and transform them
 
 ### 2. human rating
 We'll present human raters with the original passage and output from several submissions including our best and have them judge which of the submissions best matches to the meaning of the original passage.
+
+If you significantly beat our best in-lab decoder, we'll ask for your code to verify the results. If they hold, you win!
+
+Good luck!
