@@ -4,6 +4,8 @@ Welcome to the Gallant Lab's offering for the 2016 IEEE International Conference
 
 For this project, you'll have access to brain activity from a human subject listening while they listen to hours of stories. Your goal is to design a method to decode their brain activity and predict what the subject heard. How you do it is completely up to you. We've provided easy starting points for NLP hackers wanting to construct custom features from the text data and ML hackers who just want to dive in using our features.
 
+Participants must read and agree to the conditions described in the [LICENSE.md](https://github.com/gallantlab/ieee-hackathon/blob/master/LICENSE.md)
+
 ## getting started
 Start by downloading this repository.
 ~~~ sh
