@@ -1,4 +1,4 @@
-# downloads`a hdf5 file containing the fMRI responses to ./data/responses.tar.gz
+# downloads an hdf5 file containing the fMRI responses to ./data/responses.h5
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/data"
 if [ ! -d "${DIR}" ]; then
     mkdir "${DIR}";
